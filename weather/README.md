@@ -10,6 +10,16 @@ npm run dev
 yarn dev
 ```
 
+Then configure your `.webflowrc.json` based off the config values found in the DevLink modal. Replace the API Token with your site's API key.
+
+Run `sync`
+
+```bash
+npm run ds
+# or
+yarn ds
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Clone the Webflow Project
