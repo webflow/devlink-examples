@@ -2,7 +2,41 @@ This is a reference implementation of [Webflow DevLink](https://webflow.com/devl
 
 ## Getting Started
 
-First, run the development server:
+### Clone the Webflow Project
+
+In order to use this project, you'll need to clone this Webflow project into your own workspace. https://webflow.com/made-in-webflow/website/devlink-reference
+
+<img width="1470" alt="image" src="https://user-images.githubusercontent.com/1051021/217922636-fe237cc7-74b6-482d-8af4-7422e344b18c.png">
+
+### Set up your local environment
+
+In the Designer use the keyboard shortcut `* d x` to access the DevLink config. Then configure your `.webflowrc.json` based off the config values. 
+
+<img width="669" alt="devlink modal" src="https://user-images.githubusercontent.com/5628190/218443547-f6dedd23-dbb8-4de9-a5d9-caba432e012e.png">
+
+
+Replace the API Token with your site's API key (which you can generate in site settings Integrations tab).
+
+<img width="1154" alt="api key" src="https://user-images.githubusercontent.com/5628190/218443577-2b8e6bce-40e2-4e96-8ea1-ad92bb28bdaa.png">
+
+Then, install the needed dependencies.
+```bash
+npm install
+# or
+yarn instal
+```
+
+Sync all the Webflow components into your local filesystem.
+
+```bash
+webflow-devlink sync
+# or
+npm run ds
+# or
+yarn ds
+```
+
+Last, run the development server:
 
 ```bash
 npm run dev
@@ -10,20 +44,7 @@ npm run dev
 yarn dev
 ```
 
-Then configure your `.webflowrc.json` based off the config values found in the DevLink modal. Replace the API Token with your site's API key.
-
-Run `sync`
-
-```bash
-npm run ds
-# or
-yarn ds
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Clone the Webflow Project
 
-In order to use this project, you'll need to clone this Webflow project into your own workspace. https://webflow.com/made-in-webflow/website/devlink-reference
-
-<img width="1470" alt="image" src="https://user-images.githubusercontent.com/1051021/217922636-fe237cc7-74b6-482d-8af4-7422e344b18c.png">
