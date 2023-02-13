@@ -5,4 +5,4 @@ Reference implementations for Webflow DevLink.
 
 
 # Terms of Service
-Using Webflow DevLink means you agree to the [Webflow Labs Terms of Service]([url](https://webflow.com/legal/labs-terms)).
+Using Webflow DevLink means you agree to the [Webflow Labs Terms of Service](https://webflow.com/legal/labs-terms).
