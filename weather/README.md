@@ -23,7 +23,7 @@ Then, install the needed dependencies.
 ```bash
 npm install
 # or
-yarn instal
+yarn install
 ```
 
 Sync all the Webflow components into your local filesystem.
