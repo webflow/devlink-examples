@@ -323,10 +323,10 @@
     "@typescript-eslint/types" "5.51.0"
     eslint-visitor-keys "^3.3.0"
 
-"@webflow/webflow-devlink@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@webflow/webflow-devlink/1.0.1/c5af7a8b909e9a754ec5f3ed9b4ca529623bb844#c5af7a8b909e9a754ec5f3ed9b4ca529623bb844"
-  integrity sha512-LEen1xpEkY+CCY0+ZfiEuw65K7s6swb9UnD0dQWDFo2XCELbW42QpSZZX6W0WqsM9KRgiiExBHx2A+HRlJo/7w==
+"@webflow/webflow-devlink@^1.0.2":
+  version "1.0.2"
+  resolved "https://npm.pkg.github.com/download/@webflow/webflow-devlink/1.0.2/601eca1c4b93c1ca6676b435a55465554193f89e#601eca1c4b93c1ca6676b435a55465554193f89e"
+  integrity sha512-kIQpmIFu53v4R18K+51yGgZ14CpyFtA9taHQ0YIivQUEwz5DK9Kr0sXtaxC+f7rniZiKV9DRoirFj9+tdmjG/Q==
   dependencies:
     "@types/body-parser" "^1.19.2"
     "@types/cors" "^2.8.12"
