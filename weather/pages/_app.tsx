@@ -3,16 +3,23 @@ import "../devlink/global.css";
 
 import type { AppProps } from "next/app";
 
-import { InteractionsProvider, Layout, SideNav, TopNav, createIX2Engine } from "../devlink";
+import {
+  InteractionsProvider,
+  Layout,
+  SideNav,
+  createIX2Engine,
+  TopNav,
+} from "../devlink";
+import { LocationForm } from "../components/LocationForm";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-      <InteractionsProvider createEngine={createIX2Engine}>
+    <InteractionsProvider createEngine={createIX2Engine}>
       <Layout
         sidebar={<SideNav />}
-        topnav={<TopNav />}
+        topnav={<TopNav locationForm={<LocationForm />} />}
         main={<Component {...pageProps} />}
       />
-      </InteractionsProvider>
+    </InteractionsProvider>
   );
 }
