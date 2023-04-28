@@ -10,7 +10,7 @@ In order to use this project, you'll need to clone this Webflow project into you
 
 ### Set up your local environment
 
-In the Designer use the keyboard shortcut `* d x` to access the DevLink config. Then configure your `.webflowrc.json` based off the config values. 
+In the Designer open the Components menu and click on the "Export components" button to access the DevLink config. Then configure your `.webflowrc.json` based off the config values.
 
 <img width="669" alt="devlink modal" src="https://user-images.githubusercontent.com/5628190/218443547-f6dedd23-dbb8-4de9-a5d9-caba432e012e.png">
 
@@ -22,26 +22,18 @@ Replace the API Token with your site's API key (which you can generate in site s
 Then, install the needed dependencies.
 ```bash
 npm install
-# or
-yarn install
 ```
 
 Sync all the Webflow components into your local filesystem.
 
 ```bash
-webflow-devlink sync
-# or
-npm run ds
-# or
-yarn ds
+npx webflow devlink sync
 ```
 
 Last, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
 

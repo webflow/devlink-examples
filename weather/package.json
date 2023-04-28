@@ -6,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "ds": "webflow-devlink sync"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@webflow/webflow-cli": "latest",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
@@ -18,7 +18,6 @@
     "@types/node": "18.11.6",
     "@types/react": "18.0.23",
     "@types/react-dom": "18.0.7",
-    "@webflow/webflow-devlink": "^1.0.2",
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0",
     "typescript": "4.8.4"
