@@ -12,7 +12,7 @@ In order to use this project, you'll need to clone this Webflow project into you
 
 In the Designer open the Components menu and click on the "Export components" button to access the DevLink config. Then configure your `.webflowrc.json` based off the config values.
 
-<img width="669" alt="devlink modal" src="https://user-images.githubusercontent.com/5628190/218443547-f6dedd23-dbb8-4de9-a5d9-caba432e012e.png">
+<img width="650" alt="ed0f6c7-export_components" src="https://user-images.githubusercontent.com/5628190/235150237-9b2d0bb8-22bb-4528-b9b6-f4dd81fbe9dd.png"> <img width="600" alt="devlink config" src="https://user-images.githubusercontent.com/5628190/235150248-9bf96528-35f4-44da-95fe-39f0db0eaa19.png">
 
 
 Replace the API Token with your site's API key (which you can generate in site settings Integrations tab).
