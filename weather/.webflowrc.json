@@ -1,7 +1,0 @@
-{
-  "host": "https://api.webflow.com",
-  "rootDir": "./devlink",
-  "siteId": "[YOUR SITE ID]",
-  "authToken": "[YOUR API TOKEN]",
-  "cssModules": true
-}
